@@ -71,9 +71,18 @@
 
 # string methods
 
-s1 = "mysirg education services"
-print(s1.index("g"))
-print(s1.count("e"))
-print(s1.startswith("my"))
-print(s1.endswith("services"))
-print(s1.isdigit())
+# s1 = "mysirg education services"
+# print(s1.index("g"))
+# print(s1.count("e"))
+# print(s1.startswith("my"))
+# print(s1.endswith("services"))
+
+
+s2 = "Sameer123"
+print(s2.isdigit())
+print(s2.isalpha())
+print(s2.isupper())
+s2 = s2.upper()
+print(s2.isupper())
+s2 = s2.replace("123","456")
+print(s2)
