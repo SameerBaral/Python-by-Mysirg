@@ -37,7 +37,7 @@
 
 
 # set function me ek se jyada argument nahi pass kar skte hai
-# s1 = (10,20,30)   #error
+# s1 = set(10,20,30)   #error
 
 
 # single value jo pass karege vo iterable type ka hi hona chiye
@@ -88,7 +88,7 @@
 
 # -----------------------------------------------
 
-s1 = {1,2,3}
+# s1 = {1,2,3}
 # s1.add(4)
 # print(s1)
 
@@ -98,6 +98,11 @@ s1 = {1,2,3}
 # s1.add((12,33))
 # print(s1)
 
+# s1.discard(2)
+# print(s1)
+
+# s1.remove(2)
+# print(s1)
 
 # update: this function can only take iterable object
 # s1.update([10,20,88])
@@ -109,3 +114,32 @@ s1 = {1,2,3}
 
 # s = {e**2 for e in range(1,6)}
 # print(s,end=" ")
+
+
+# ------------------------------------------
+
+# union operation:- sare element
+
+# s1 = {1,2,4}
+# s2 = {5,7,2}
+
+# s3 = s1.union(s2)
+# print(s3)
+
+
+# intersection operation:- common element
+
+# s4 = s1.intersection(s2)
+# print(s4)
+
+
+
+# s = input("Enter a string:")
+# s1 = set()
+# for i in s:
+#     if i in "aeiouAEIOU":
+#         s1.add(i)
+# print("Vowels in the string are:",s1)
+
+
+# set is a mutable object while frozenset provide immutable implementation
