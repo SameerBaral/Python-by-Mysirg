@@ -37,6 +37,9 @@
 
 # ------------------------------------------------
 
+# split()=> str-->          list of str
+# jion()=>  list of str-->  str
+
 # join
 
 # join isko list of str denge ye return katra hai single string
