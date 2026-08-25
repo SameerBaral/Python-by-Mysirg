@@ -89,6 +89,12 @@
 
 
 # ------------------------------------------------
+# taking user input and converting it into tuple
 
-t1 = tuple([1,2,3,8])
-print(type(t1))
+# t1 = tuple([1,2,3,8])
+# print(type(t1))
+
+# t1 = tuple([int(e) for e in input("Enter numbers: ").split(',')])
+# print(t1)
+
+
