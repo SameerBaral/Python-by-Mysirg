@@ -26,3 +26,4 @@
 #         pass
 
 # e1 = Employee()
+# e1.shawoSalary()
